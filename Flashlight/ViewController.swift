@@ -14,14 +14,14 @@ class ViewController: UIViewController {
         lightOn = !lightOn
         updateUI()
     }
-    @IBOutlet weak var lightButton: UIButton!
+    
         func updateUI(){
             if lightOn{
                 view.backgroundColor = .white
-                lightButton.setTitle("Off", for: .normal)
+                
             }else{
                 view.backgroundColor = .black
-                lightButton.setTitle("On", for: .normal)
+               
             }
         }
     
