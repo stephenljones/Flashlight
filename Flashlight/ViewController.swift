@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         lightOn = !lightOn
         updateUI()
     }
+    @IBOutlet weak var lightButton: UIButton!
         func updateUI(){
             if lightOn{
                 view.backgroundColor = .white
